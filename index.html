@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<nav class="navbar">
+    <ul class="link-group">
+        <li class="link active"><a href="#">home</a></li>
+        <li class="link"><a href="#">projects</a></li>
+        <li class="link"><a href="#">about</a></li>
+        <li class="link"><a href="#">contact</a></li>
+    </ul>
+</nav>
+
+<section class="home-section active">
+    <h1 class="hero-heading">hello, i am <br> Aksel</h1>
+    <img src="King1.jpg" class="home-img" alt="No Image">
+</section>
+
+<section class="project-section">
+    <h1 class="project-heading">some of my projects</h1>
+    <div class="project-container">
+        <div class="project-card">
+            <img src="TypeFighter.png" class="project-img" alt="TypeFighter">
+            <div class="project-content">
+                <h1 class="project-title">project 01</h1>
+                <p class="project-info">
+                    A simple type racing game with multiplayer, using Google Firebase.
+                </p>
+                <div class="project-btn-grp">
+                    <button class="project-btn github">github repo</button>
+                </div>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="FoodAppen.JPG" class="project-img" alt="FoodApp">
+            <div class="project-content">
+                <h1 class="project-title">project 01</h1>
+                <p class="project-info">
+                    A Food ordering app, with user and restaurant page. Using Firebase.
+                </p>
+                <div class="project-btn-grp">
+                    <button class="project-btn github">github repo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="about-section">
+    <div class="about">
+        <div class="about-img-container">
+            <img src="king2.jpg" class="about-img" alt="Me">
+            <button class="download-cv-btn">download cv(Not Working)</button>
+        </div>
+        <p class="about-info">My name is Aksel Löfstedt Nielsen and I'm 24 years old. Currently, I'm studying app development at IT-Högskolan in Stockholm Sweden, where I'm learning to design and build mobile apps for iOS and Android platforms. Also Web development like this one.
+            I've always been interested in technology and enjoy exploring new software and hardware. I'm passionate about creating apps that are both intuitive and functional, and that help people in their daily lives.
+            Aside from app development, I enjoy Discgolf, going to the gym, and spending time with family and friends. I'm also a big fan of science fiction and enjoy reading books and watching movies in the genre.</p>
+    </div>
+    <div class="skill-section">
+        <h1 class="heading">skills</h1>
+        <div class="skills-container">
+            <div class="skill-card">
+                <img src="kotlin logo.png" class="skill-img" alt="">
+                <div class="skill-level">98%</div>
+                <h1 class="skill-name">Kotlin</h1>
+                <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
+            </div>
+            <div class="skill-card">
+                <img src="swift logo.webp" class="skill-img" alt="">
+                <div class="skill-level">98%</div>
+                <h1 class="skill-name">Swift</h1>
+                <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
+            </div>
+            <div class="skill-card">
+                <img src="HTML logo.png" class="skill-img" alt="">
+                <div class="skill-level">50%</div>
+                <h1 class="skill-name">HTML</h1>
+                <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
+            </div>
+            <div class="skill-card">
+                <img src="CSS logo.png" class="skill-img" alt="">
+                <div class="skill-level">50%</div>
+                <h1 class="skill-name">CSS</h1>
+                <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
+            </div>
+            <div class="skill-card">
+                <img src="JS logo.png" class="skill-img" alt="">
+                <div class="skill-level">50%</div>
+                <h1 class="skill-name">JavaScript</h1>
+                <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="timeline">
+        <h1 class="heading">Education And Experience</h1>
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">2014-2017</h1>
+                <p class="card-detail">Österåkers Gymnasium, Teknik/Media programmet. </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">2018-2022</h1>
+                <p class="card-detail">Sjökarby-Skolan, Elev Assistent. </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">2022-OnGoing</h1>
+                <p class="card-detail">IT-Högskolan, App Development.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+<section class="contact-section">
+    <form class="contact-form">
+        <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
+        <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
+        <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
+        <button type="submit" class="form-submit-btn">contact</button>
+    </form>
+
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d54780.73932063867!2d18.006086651716313!3d59.31957310143246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ssv!2sse!4v1678203409023!5m2!1ssv!2sse" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</section>
+</body>
+<script src="app.js"></script>
+</html>
