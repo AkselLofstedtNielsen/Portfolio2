@@ -130,9 +130,13 @@ body{
 }
 
 .project-content{
-    position: relative;
+    position: absolute;
+    top: 60%; /* Adjust to vertically center */
+    left: 35%; /* Adjust to horizontally center */
+    transform: translate(-50%, -50%); /* Center the content */
     padding: 40px;
-    color: #575757;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent black background */
     transition: .5s;
     opacity: 0;
 }
